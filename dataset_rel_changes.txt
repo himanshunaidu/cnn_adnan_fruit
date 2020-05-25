@@ -1,0 +1,16 @@
+Line 187, 188: Comments that give conext on the training set size, batch size, and total iterations to go through the dataset once
+		(Would be changed if the dataset in use is modified)
+Line 190: Total training epochs for the CNN
+Line 203: If the dataset is modified, the itrain length would change, and a new batchlength will have to be specified, thus the number '261' will have to changed accordingly
+
+Current Scenario:
+
+Total Training Set Size: 52,200
+Total Classes: 100
+Batch Size: 200 (Average images per class: 2)
+Therefore, Total epochs for entire dataset: 52200/200 = 261
+
+The above numbers would be changed when you modify the dataset.
+
+Note:- To find the total number of images in your training set, you can run importer.py
+	In the end it prints "Images length: <Total training set size>"
