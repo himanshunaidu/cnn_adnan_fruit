@@ -1,4 +1,4 @@
-# A version of AlexNet used to classify fruits on the fruits-360 dataset (Tensorflow 1.15.0)
+# A version of a CNN (reference will be given shortly) used to classify fruits on the fruits-360 dataset (Tensorflow 1.15.0)
 
 ## cnn_saver.py:
 The file that creates the neural network, and trains it. Once the relevant paths are specified, will also save the variables, model, and other info.
